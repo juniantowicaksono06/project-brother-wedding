@@ -1,0 +1,99 @@
+html, body, body > *, #__layout {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    font-weight: bold !important;
+}
+
+.vertical-center-content {
+    margin: auto 0;
+}
+
+.slide-up {
+    position: relative;
+    opacity: 0;
+    animation-name: slideUp;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    top: 200px;
+}
+
+.slide {
+    opacity: 0;
+}
+
+.font-lg {
+    font-size: 64px;
+}
+
+.font-md {
+    font-size: 48px;
+}
+
+.font-sm {
+    font-size: 24px;
+}
+
+.font-xs {
+    font-size: 20px;
+}
+
+.maroon-text {
+    color: #800000;
+}
+
+.work-sans {
+    font-family: 'Work Sans', Arial, serif;
+    font-weight: 600;
+}
+
+.sacramento {
+    font-family: "Sacramento", Arial, serif;
+}
+
+.great-vibes {
+    font-family: 'Great Vibes', Arial, serif;
+}
+
+.wedding-icon {
+    color: pink;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+@keyframes slideUp {
+    from {
+        top: 100px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .font-lg {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .font-lg {
+        font-size: 28px;
+    }
+    .font-md {
+        font-size: 18px;
+    }
+    .font-sm {
+        font-size: 14px;
+    }
+    .font-xs {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,102 @@
+#cover-overlay {
+    background-image: url('../img/pra-wedding4.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    width: 100% !important;
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+#cover {
+    position: relative;
+    min-height: 600px;
+}
+#bride_name {
+    font-family: "Sacramento", Arial, serif;
+    font-size: 64px;
+    color:#fff;
+    opacity: 0;
+}
+#cover span {
+    font-family: "Work Sans", Arial, sans-serif ;
+    font-size: 18px;
+    font-weight: 500;
+}
+#cover_content {
+    min-height: 95vh;
+}
+#cover_content .subheading {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 10px;
+    font-weight: 900;
+    opacity: 0;
+}
+#cover_content .subheading:before {
+    position: absolute;
+    left: -150px;
+    top: 50%;
+    content: '';
+    background-color: #fff;
+    width: 130px;
+    height: 1px;
+}
+
+#cover_content .subheading {
+    color: #fff;
+    font-weight: 600;
+}
+
+#cover_content .subheading:after {
+    position: absolute;
+    right: -140px;
+    top: 50%;
+    content: '';
+    background-color: #fff;
+    width: 130px;
+    height: 1px;
+}
+
+.countdown {
+    color: #fff;
+    padding: 10px 30px; 
+    text-align: center;
+}
+.countdown p {
+    margin-bottom: 0;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* .countdown {
+    border-right: 1px solid rgb(201, 201, 201);
+    content: '';
+} */
+
+@media only screen and (max-width: 768px) {
+    #cover_content .subheading:after {
+        display: none;
+    }
+    #cover_content .subheading:before {
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #cover {
+        min-height: 100vh;
+    }
+    #cover_content .subheading {
+        font-size: 18px;
+    }
+    #cover-overlay {
+        background-position: 55%;
+        min-height: 100vh;
+    }
+    #bride_name {
+        font-family: "Sacramento", Arial, serif;
+        font-size: 48px;
+        color:#fff;
+    }
+}

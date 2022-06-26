@@ -1,0 +1,148 @@
+#content {
+    min-height: 200px;
+}
+
+div#content_grid {
+    display: grid;
+    grid-template-columns: 24px 1fr 24px;
+    height: 100%;
+}
+
+div#content_grid .bg-left {
+    background-image: url('../icons/bg-kanan.png');
+    background-position: right top;
+}
+
+div#content_grid .bg-repeat-y {
+    background-repeat: repeat-y;
+    background-color: pink;
+    padding: 12px;
+}
+
+div#content_grid .bg-right {
+    background-image: url('../icons/bg-kiri.png');
+    background-position: left top;
+}
+
+div.content-horizontal-grid {
+    height: 20px;
+    display: grid;
+    grid-template-columns: 18px 1fr 24px;
+}
+
+div.content-horizontal-grid .bg-horizontal {
+    background-image: url('../icons/kartu-bg-atas.png');
+    background-color: pink;
+}
+
+div.content-horizontal-grid .bg-horizontal-left {
+    background-image: url('../icons/bg-kiri-atas.png');
+}
+
+div.content-horizontal-grid .bg-horizontal-right {
+    background-image: url('../icons/bg-kanan-atas.png');
+}
+
+#card_content {
+    padding: 30px 20px;
+}
+
+#bride_undangan_name {
+    font-family: "Sacramento", Arial, serif;
+    text-align: center;
+}
+#bride_undangan_name p {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.bg-overlay-flower {
+    background-image: url('../icons/flower-bg.png');
+    min-height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bride_image_overlay {
+    max-width: 320px;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+}
+
+
+#bride_photo_overlay {
+    max-width: 320px;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+}
+
+#bride_photo_frame {
+    background-image: url('../icons/foto-frame.png');
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: 100%;
+    max-width: 300px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    background-color: #ffc0cb;
+    background-repeat: no-repeat;
+}
+
+#bride_photo {
+    /* max-width: 265px;
+    max-height: 265px; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    z-index: 998;
+    position: relative;
+    margin-left: 2px;
+    top: 5px;
+    width: 98% !important;
+    height: 100% !important;
+    border-radius: 100%; 
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+    .bg-overlay-flower {
+        min-height: 100px;
+        background-repeat: no-repeat;
+    }
+    #bride_photo {
+        top: 14px;
+        width: 205px;
+        height: 205px;
+        margin-top: -10px;
+        margin-bottom: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-overlay-flower {
+        min-height: 100px;
+        background-repeat: no-repeat;
+    }
+}
