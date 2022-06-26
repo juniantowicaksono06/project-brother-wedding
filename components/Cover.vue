@@ -2,9 +2,9 @@
     @import url("@/static/css/cover.css");
 </style>
 <template>
-    <div class="container-fluid h-100 px-0">
+    <div class="container-fluid w-100 h-100 px-0">
         <div class="position-relative" id="cover">
-            <div id="cover-overlay" class="w-100" ref="fill_height_ref">
+            <div id="cover_overlay" class="w-100" ref="cover_overlay_ref">
                 <div class="row w-100 py-3" id="cover_topbar"></div>
                 <div class="container mt-5" id="cover_content">
                     <div class="row w-100 h-100 m-0 p-0 justify-content-center">
@@ -26,7 +26,7 @@
                             <client-only>
                                 <VueCountdown :time="wedding_date.getTime() - now.getTime()">
                                     <template slot-scope="props">
-                                        <div class="container mt-4 slide" ref="cover_countdown_ref">   
+                                        <div class="container-fluid mt-4 slide" ref="cover_countdown_ref">   
                                             <div class="d-flex justify-content-center">
                                                 <div class="countdown">
                                                     <p>{{ props.days }}</p>
@@ -63,13 +63,21 @@ export default {
         return {
             wedding_date: new Date(2022, 8, 18, 9, 0, 0),
             now: new Date(),
-            wedding_real_date: 'Minggu, 18 September 2022'
+            wedding_real_date: 'Minggu, 18 September 2022',
+            old_scroll: 0
         }
     },
     mounted() {
         this.initCover()
+        this.disableParallaxIfIsSafari()
     },
     methods: {
+        disableParallaxIfIsSafari() {
+            var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
+            if(isSafari) {
+                document.getElementById('cover_overlay').style.backgroundAttachment = 'none'
+            }
+        },
         initCover() {
             this.$refs.subheading_ref.classList.add('slide-up')
             setTimeout(() => {

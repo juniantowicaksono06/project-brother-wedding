@@ -1,4 +1,4 @@
-#cover-overlay {
+#cover_overlay {
     background-image: url('../img/pra-wedding4.jpg');
     background-size: cover;
     min-height: 100vh;
@@ -90,9 +90,12 @@
     #cover_content .subheading {
         font-size: 18px;
     }
-    #cover-overlay {
+    #cover_overlay {
         background-position: 55%;
         min-height: 100vh;
+    }
+    .countdown p {
+        font-size: 14px;
     }
     #bride_name {
         font-family: "Sacramento", Arial, serif;
