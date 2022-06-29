@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-12 work-sans">
                     <h3 class="text-center">Save in Date</h3>
-                    <p class="text-center">Yang Insya Allah akan dilaksanakan Pada</p>
+                    <p class="text-center">Yang Insya Allah akan dilaksanakan pada</p>
                 </div>
             </div>
             <div class="row">
