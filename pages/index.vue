@@ -25,7 +25,15 @@ export default {
   },
   head() {
     return {
-      title: 'Wawan & Dheta'
+      title: 'Wawan & Dheta',
+      meta: [
+        {
+          hid: 'og:title', property: 'og:title', content: 'Undangan Pernikahan Wawan & Dheta'
+        },
+        {
+          hid: 'og:image', property: 'og:image', content: '/img/pra-wedding1.png'
+        },
+      ]
     }
   },
   mounted() {
