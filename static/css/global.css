@@ -5,6 +5,11 @@ html, body, body > *, #__layout {
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .active {
     font-weight: bold !important;
 }

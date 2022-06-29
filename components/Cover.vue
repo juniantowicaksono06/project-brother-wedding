@@ -68,8 +68,14 @@ export default {
         }
     },
     mounted() {
-        this.initCover()
-        this.disableParallaxIfIsSafari()
+        window.scrollTo(0, 0)
+        document.onreadystatechange = () => {
+            if(document.readyState == 'complete') {
+                this.initCover()
+                this.disableParallaxIfIsSafari()
+                document.body.style.overflowY = 'auto'
+            }
+        }
     },
     methods: {
         disableParallaxIfIsSafari() {
