@@ -31,7 +31,7 @@ export default {
           hid: 'og:title', property: 'og:title', content: 'Undangan Pernikahan Wawan & Dheta'
         },
         {
-          hid: 'og:image', property: 'og:image', content: '/img/pra-wedding1.png'
+          hid: 'og:image', property: 'og:image', content: 'https://lh5.googleusercontent.com/pQpZCREnohO9KzrgvKKan0bkVE51wU6ndWzX3r-UrLcnhl-PihQoO4JlDcppdK6HJ7K1U-TPgqWovQ=w1366-h641-rw'
         },
       ]
     }
