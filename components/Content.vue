@@ -34,7 +34,7 @@
                         </div>
                         <div class="row my-3">
                             <div class="col-12 col-md-6 offset-md-3 pr-0">
-                                <p class="mb-0 work-sans text-center">Semua yang kita lakukan hanya untuk saling menjaga dan memiliki, Karena perasaan hati kita telah menyatu dan tak ingin dipisahkan, kita ingin selalu bersama sampai kapanpun ( Wawan & Dheta )</p>
+                                <p class="mb-0 work-sans text-center">Semua yang kita lakukan hanya untuk saling menjaga dan memiliki, Karena perasaan hati kita telah menyatu dan tak ingin dipisahkan, kita ingin selalu bersama sampai kapanpun <br/>( Wawan & Dheta )</p>
                             </div>
                         </div>
                         <div class="row" style="margin-top: -10px;">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="text-right">
                         <h1 class="maroon-text sacramento mt-5">Dheta Nalurita Demega</h1>
-                        <p class="mb-0">Putri dari Bapak Paenen Lukito dan Ibu Sulasmi (Alm)</p>
+                        <p class="mb-0">Putri dari Bapak Paenen Lukito dan Ibu Sulasmi (Almh)</p>
                     </div>
                 </div>
             </div>
