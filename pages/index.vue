@@ -1,5 +1,10 @@
 <template>
   <div class="main-container">
+    <audio
+      src="/audio/audio1.mp3" autoplay>
+      Your browser does not support the
+      <code>audio</code> element.
+    </audio>
     <Cover/>
     <Content/>
   </div>
@@ -9,11 +14,15 @@
 import Cover from "../components/Cover.vue"
 import Content from "../components/Content.vue"
 export default {
-  title: 'Tes',
   name: 'IndexPage',
   component: {
     Cover,
     Content
+  },
+  head() {
+    return {
+      title: 'Wawan & Dheta'
+    }
   }
 }
 </script>

@@ -126,6 +126,10 @@ div.content-horizontal-grid .bg-horizontal-right {
     margin-bottom: 5px;
 }
 
+#footer span {
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 576px) {
     .bg-overlay-flower {
         min-height: 100px;
@@ -137,6 +141,9 @@ div.content-horizontal-grid .bg-horizontal-right {
         height: 205px;
         margin-top: -10px;
         margin-bottom: 14px;
+    }
+    #footer span {
+        font-size: 12px;
     }
 }
 

@@ -25,6 +25,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@fortawesome/fontawesome-free/css/all.css',
     '@/static/css/global.css',
     '@/static/css/flaticon.css'
   ],

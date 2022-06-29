@@ -73,10 +73,16 @@ export default {
     },
     methods: {
         disableParallaxIfIsSafari() {
-            var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
-            if(isSafari) {
-                document.getElementById('cover_overlay').style.backgroundAttachment = 'none'
+            var ua = navigator.userAgent.toLowerCase(); 
+            if (ua.indexOf('safari') != -1) { 
+                if (ua.indexOf('chrome') > -1) {
+                    document.getElementById('cover_overlay').style.backgroundAttachment = 'fixed'
+                }
             }
+            // var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
+            // if(isSafari) {
+            //     document.getElementById('cover_overlay').style.backgroundAttachment = 'none'
+            // }
         },
         initCover() {
             this.$refs.subheading_ref.classList.add('slide-up')

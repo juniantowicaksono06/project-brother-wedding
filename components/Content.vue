@@ -128,10 +128,64 @@
             </div>
             <div class="row mt-3">
                 <div class="col-12">
-                    <h3 class="text-center">Peta Lokasi</h3>
-                    <p class="text-center">Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini. Atau anda bisa buka di <a href="https://www.google.co.id/maps/place/Gedung+Pertemuan+Widya+Kartika/@-7.2842589,112.7174721,17z/data=!3m1!4b1!4m5!3m4!1s0x2dd7fbf415f77c31:0x2576897ea0e47cb3!8m2!3d-7.2842642!4d112.7196608?hl=id" class="text-danger text-bold" style="text-decoration: none;">Google Maps</a></p>
+                    <h3 class="text-center work-sans text-normal">Mohon Doa Restu</h3>
+                    <p class="text-center work-sans">
+                        Kami memohon do'a restu dari Bapak/Ibu/Saudara(i), semoga Allah SWT meridhoi dan memberakahi segala proses pernikahan ini, dan menganugrahi keluarga sakinah. Mawaddah dan Warrahmah.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-6 col-md-4 offset-3 offset-md-4">
+                    <img src="/img/pra-wedding8.jpg" class="w-100 rounded-circle" alt="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h3 class="text-center work-sans text-normal">Ucapan Terima Kasih</h3>
+                    <p class="text-center work-sans">Tiada kata yang pantas kami haturkan selain ucapan terima kasih yang terdalam atas kehadiran Bapak/Ibu/Saudara(i) pada pernikahan kami.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h3 class="text-center work-sans text-normal">Galeri Foto</h3>
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed1.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed2.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed3.jpg" class='w-100' alt="">
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed4.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed5.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed6.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 offset-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed7.jpg" class='w-100' alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h3 class="text-center work-sans text-normal">Peta Lokasi</h3>
+                    <p class="text-center work-sans">Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini. Atau anda bisa buka di <a href="https://www.google.co.id/maps/place/Gedung+Pertemuan+Widya+Kartika/@-7.2842589,112.7174721,17z/data=!3m1!4b1!4m5!3m4!1s0x2dd7fbf415f77c31:0x2576897ea0e47cb3!8m2!3d-7.2842642!4d112.7196608?hl=id" class="text-danger text-bold" style="text-decoration: none;">Google Maps</a></p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6177502230516!2d112.71747211423708!3d-7.284258873611117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbf415f77c31%3A0x2576897ea0e47cb3!2sGedung%20Pertemuan%20Widya%20Kartika!5e0!3m2!1sid!2sid!4v1656228428280!5m2!1sid!2sid" class="w-100" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+            </div>
+        </div>
+        <div class="row w-100 mr-0" id="footer">
+            <div class="col-12 text-right pr-0">
+                <span class="flaticon-wedding">Made with love <i class="fa fa-heart text-danger"></i> By Junianto Ichwan Dwi Wicaksono</span>
+                <span class="d-none">HAPPY WEDDING ONI CHAN :)</span>
             </div>
         </div>
     </div>
