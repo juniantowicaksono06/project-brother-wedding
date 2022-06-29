@@ -184,7 +184,7 @@
         </div>
         <div class="row w-100 mr-0" id="footer">
             <div class="col-12 text-right pr-0">
-                <span class="flaticon-wedding">Made with love <i class="fa fa-heart text-danger"></i> By Junianto Ichwan Dwi Wicaksono</span>
+                <span class="flaticon-wedding">Made with <i class="fa fa-heart text-danger"></i> By Junianto Ichwan Dwi Wicaksono</span>
                 <span class="d-none">HAPPY WEDDING ONI CHAN :)</span>
             </div>
         </div>
