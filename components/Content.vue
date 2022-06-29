@@ -59,7 +59,7 @@
             <div class="row my-4">
                 <div class="col-12 work-sans">
                     <div class="text-left">
-                        <h3>Bisimillahirrahmanirrahim</h3>
+                        <h3>Bismillahirrahmanirrahim</h3>
                         <p class="mb-0">Assalamualaikum Warrahmatullahi Wabarakatuh</p>
                         <p class="mb-0">Maha suci Allah SWT yang telah menciptakan mahluk-Nya Berpasang-pasangan</p>
                         <p class="mb-0">Ya Allah Perkenankanlah kami, Putra - Putri kami dalam suatu ikatan pernikahan</p>
@@ -130,7 +130,7 @@
                 <div class="col-12">
                     <h3 class="text-center work-sans text-normal">Mohon Doa Restu</h3>
                     <p class="text-center work-sans">
-                        Kami memohon do'a restu dari Bapak/Ibu/Saudara(i), semoga Allah SWT meridhoi dan memberakahi segala proses pernikahan ini, dan menganugrahi keluarga sakinah. Mawaddah dan Warrahmah.
+                        Kami memohon do'a restu dari Bapak/Ibu/Saudara(i), semoga Allah SWT meridhoi dan memberkahi segala proses pernikahan ini, dan menganugerahi keluarga Sakinah Mawaddah dan Warrahmah.
                     </p>
                 </div>
             </div>

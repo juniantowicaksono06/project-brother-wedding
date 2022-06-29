@@ -1,7 +1,11 @@
 <template>
   <div class="main-container">
+    <iframe src="/audio/silence.mp3" allow="autoplay" style="display: none;" frameborder="0"></iframe>
     <audio
-      src="/audio/audio1.mp3" autoplay>
+      id="bg_audio"
+      autoplay
+      loop
+      src="/audio/audio1.mp3" ref="bg_audio_ref">
       Your browser does not support the
       <code>audio</code> element.
     </audio>
@@ -22,6 +26,16 @@ export default {
   head() {
     return {
       title: 'Wawan & Dheta'
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', () => {
+      this.initBgAudio()
+    })
+  },
+  methods: {
+    initBgAudio() {
+      this.$refs.bg_audio_ref.play()
     }
   }
 }
