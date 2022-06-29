@@ -10,7 +10,7 @@
                     <div class="row w-100 h-100 m-0 p-0 justify-content-center">
                         <div class="col-md-12">
                             <div class="text-center">
-                                <span class="subheading slide" ref="subheading_ref">The Wedding Of</span>
+                                <span class="subheading slide" ref="subheading_ref">The Wedding</span>
                                 <h3 id="bride_name" class="mt-4 slide" ref="bride_name_ref">
                                     <p class="d-none d-md-block">Wawan & Dheta</p>
                                     <p class="mb-0 d-block d-md-none">Wawan</p>
