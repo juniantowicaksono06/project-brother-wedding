@@ -70,7 +70,7 @@
                         <h3 class="mt-5 work-sans">Dengan</h3>
                     </div>
                     <div class="text-right">
-                        <h1 class="maroon-text sacramento mt-5">Dheta Narulita Demega</h1>
+                        <h1 class="maroon-text sacramento mt-5">Dheta Nalurita Demega</h1>
                         <p class="mb-0">Putri dari Bapak Paenen Lukito dan Ibu Sulasmi (Alm)</p>
                     </div>
                 </div>
