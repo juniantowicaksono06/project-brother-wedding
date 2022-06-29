@@ -31,7 +31,10 @@ export default {
           hid: 'og:title', property: 'og:title', content: 'Undangan Pernikahan Wawan & Dheta'
         },
         {
-          hid: 'og:image', property: 'og:image', content: 'https://lh5.googleusercontent.com/pQpZCREnohO9KzrgvKKan0bkVE51wU6ndWzX3r-UrLcnhl-PihQoO4JlDcppdK6HJ7K1U-TPgqWovQ=w1366-h641-rw'
+          hid: 'og:description', property: 'og:description', content: 'Undangan Pernikahan Wawan & Dheta'
+        },
+        {
+          hid: 'og:image', property: 'og:image', content: 'https://raw.githubusercontent.com/juniantowicaksono06/wawan-dan-dheta/main/static/img/pra-wedding1.png'
         },
       ]
     }
