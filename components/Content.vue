@@ -61,7 +61,7 @@
                     <div class="text-left">
                         <h3>Bismillahirrahmanirrahim</h3>
                         <p class="mb-0">Assalamualaikum Warrahmatullahi Wabarakatuh</p>
-                        <p class="mb-0">Maha suci Allah SWT yang telah menciptakan mahluk-Nya Berpasang-pasangan</p>
+                        <p class="mb-0">Maha suci Allah SWT yang telah menciptakan mahluk-Nya berpasang-pasangan</p>
                         <p class="mb-0">Ya Allah Perkenankanlah kami, Putra - Putri kami dalam suatu ikatan pernikahan</p>
                         <h1 class="maroon-text sacramento mt-5">Yulianto Ichwan Prabowo</h1>
                         <p class="mb-0">Putra dari Bapak Yohanes Ekwan Sudrajat dan Ibu Andriyanti Linda Nirwulan</p>
