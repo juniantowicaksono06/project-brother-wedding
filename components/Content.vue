@@ -202,7 +202,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6 offset-md-3">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="/video/vid1.mp4" allowfullscreen></iframe>
+                                    <video src="/video/vid1.mp4" id="vid_wed1" ref="vid_wed1_ref" controls>Your browser does not support HTML5 Video</video>
                                 </div>
                             </div>
                         </div>
@@ -225,3 +225,16 @@
         </div>
     </div>
 </template>
+<script>
+    export default {
+        mounted() {
+            let audio = document.getElementById('bg_audio')
+            this.$refs.vid_wed1_ref.addEventListener('play', () => {
+                audio.pause()
+            })
+            this.$refs.vid_wed1_ref.addEventListener('pause', () => {
+                audio.play()
+            })
+        },
+    }
+</script>
