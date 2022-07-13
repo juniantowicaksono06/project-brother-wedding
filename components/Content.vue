@@ -168,8 +168,43 @@
                         <div class="col-12 col-md-4 mb-3">
                             <img src="/img/galeri-foto/wed6.jpg" class='w-100' alt="">
                         </div>
-                        <div class="col-12 col-md-4 offset-md-4 mb-3">
+                        <div class="col-12 col-md-4 mb-3">
                             <img src="/img/galeri-foto/wed7.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed15.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed11.jpeg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed12.jpeg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed13.jpeg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <img src="/img/galeri-foto/wed14.jpg" class='w-100' alt="">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <img src="/img/galeri-foto/wed8.jpeg" class='w-100' alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h3 class="text-center work-sans text-normal">Video</h3>
+                    <p class="text-center work-sans">
+                        Sudi sejenak melihat kebahagiaan kami melalui video dibawah ini
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 offset-md-3">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="/video/vid1.mp4" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
