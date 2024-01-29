@@ -61,7 +61,7 @@ import VueCountdown from '@chenfengyuan/vue-countdown';
 export default {
     data() {
         return {
-            wedding_date: new Date(2022, 8, 18, 9, 0, 0),
+            wedding_date: new Date(2024, 1, 18, 9, 0, 0),
             now: new Date(),
             wedding_real_date: 'Minggu, 18 September 2022',
             old_scroll: 0
