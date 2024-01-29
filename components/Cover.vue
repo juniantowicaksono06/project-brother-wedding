@@ -63,7 +63,7 @@ export default {
         return {
             wedding_date: new Date(2024, 1, 18, 9, 0, 0),
             now: new Date(),
-            wedding_real_date: 'Minggu, 18 September 2022',
+            wedding_real_date: 'Minggu, 18 Februari 2024',
             old_scroll: 0
         }
     },
